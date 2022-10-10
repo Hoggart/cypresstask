@@ -1,0 +1,22 @@
+{
+  "name": "cypresstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoggart/cypresstask.git"
+  },
+  "author": "Maryna Samysenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoggart/cypresstask/issues"
+  },
+  "homepage": "https://github.com/Hoggart/cypresstask#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}

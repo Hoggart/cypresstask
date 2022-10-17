@@ -1,7 +1,7 @@
 describe('Test', () => {
   it('itechartcheck', () => {
     cy.visit(Cypress.env('adress'))
-    cy.get('#L2AGLb').click()
+    //cy.get('#L2AGLb').click()
 
     cy.fillField('[class="gLFyf gsfi"]')
     

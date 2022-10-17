@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+
+//Cypress.Commands.add('visitGooge', () => {
+ //   cy.visit('www.google.com/')
+ // })
+
+  Cypress.Commands.add('fillField', (selector) => {
+    cy.get(selector).click().type('itechart{enter}')
+
+  })
